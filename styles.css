@@ -70,3 +70,13 @@ ul{
     font-family: "araboto-bold";
     border: none;
 }
+.section2{
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2-pictures{
+    display: flex;
+    justify-content: center;
+}
