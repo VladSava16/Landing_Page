@@ -32,6 +32,7 @@ ul{
     display: flex;
     justify-content: space-between;
     height: 300px;
+    margin-bottom: 100px;
 }
 .section1-text{
     display: flex;
@@ -79,4 +80,32 @@ ul{
 .section2-pictures{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.section2-text{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #1f2937;
+    gap: 50px;
+    width: 844px;
+}
+.section2-text p{
+    width: 175px;
+    text-align: center;
+    margin-left: 0;
+}
+.section2 .header{
+    font-family: "araboto-bold", sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    background-color: #f9faf8;
+}
+.section2-element{
+    border: solid #3882F6;
+    height: 175px;
+    width: 175px;
+    border-radius: 25px;
+    margin-left: 0;
 }
