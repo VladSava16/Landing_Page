@@ -140,3 +140,52 @@ ul{
     font-weight: bold;
     align-self: flex-end;
 }
+.section4{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #f9faf8;
+}
+.banner{
+    background-color: #3882F6;
+    width: 948px;
+    height: 161px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+}
+.section4-text{
+    display: flex;
+}
+.section4-main-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.section4-header{
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 0;
+    font-weight: bold;
+}
+.section4-secondary{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: "araboto-light", sans-serif;
+    margin: 0;
+}
+#sign-up-banner{
+    justify-self: flex-start;
+    margin-right: 50px;
+    border: solid #f9faf8;
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-family: "araboto-normal", sans-serif;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 5px 25px 5px 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
